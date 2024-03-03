@@ -63,6 +63,11 @@
   object-fit: cover;
 }
 
+.header .name-company h2 {
+  color: #ffff;
+  font-weight: 500;
+}
+
 #wrapper .header nav {
   flex-basis: 60%;
 }
@@ -775,6 +780,41 @@ li.dish-item .button-details .watch-product {
   margin-bottom: 3px;
   transition: all 0.4s ease-in-out;
 }
+
+/* Dish popular */
+.dish-popular {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.dish-popular .popular-header {
+  text-align: center;
+}
+
+.dish-popular .popular-header img {
+  width: 800px;
+  height: 150px;
+}
+
+.dish-popular .popular-body {
+  padding-top: 40px;
+}
+
+.dish-popular .popular-body .list-dish-popular {
+  display: flex;
+  justify-content: space-around;
+}
+
+.popular-body .list-dish-popular .dishpopular-item  {
+  flex-basis: 33.33%;
+}
+
+.list-dish-popular .dishpopular-item img {
+  width: 355px;
+  height: 254px;
+  border-radius: 5px;
+}
+/* End dish popular */
 
 /* category footer */
 section.section-category {
