@@ -1,0 +1,53 @@
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.f-40 {
+  font-size: 40px;
+}
+
+.container-fuild {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.container {
+  max-width: 1170px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.postion-relative {
+  position: relative;
+}

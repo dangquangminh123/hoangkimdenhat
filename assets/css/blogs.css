@@ -1,0 +1,130 @@
+/* bg-images slider */
+.bg-images {
+  position: relative;
+  /* bottom: 0px; */
+}
+/* Blogs */
+#wrapper .blogs {
+  position: relative;
+  top: -80%;
+}
+
+.blogs .blogs-header {
+  text-align: center;
+  color: #fcd50d;
+  background: #431615;
+  padding: 10px;
+}
+
+.blogs .blogs-header .title-blogs {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.blogs .blogs-body {
+  padding-top: 15px;
+  margin-bottom: 25px;
+}
+
+.blogs .blogs-body .blogs-post-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 10px;
+}
+
+.blogs-body .blogs-post-list .blogs-details {
+  flex-basis: 33.33%;
+  padding: 10px;
+}
+
+.blogs-body .blogs-post-list .blogs-details:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* 
+.blogs-body .blogs-post-list .blogs-details:first-child {
+  padding-left: 3px;
+}
+
+.blogs-body .blogs-post-list .blogs-details:last-child {
+  padding-right: 0px;
+} */
+
+.blogs-body .blogs-post-list .blogs-details .blogs-name {
+  height: 50px;
+  line-height: 1;
+  display: block;
+  margin-bottom: 8px;
+  padding: 10px 0px;
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.blogs-body .blogs-post-list .blogs-details:hover .blogs-name {
+  color: #f3780f;
+}
+
+.blogs-body .blogs-post-list .blogs-details .times-post {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 6px;
+}
+
+.blogs-body .blogs-post-list .blogs-details .times-post i {
+  color: #431615;
+  margin-right: 1px;
+  width: 16px;
+  height: 20px;
+}
+
+.blogs-body .blogs-post-list .blogs-details .times-post .date-blogs {
+  color: #777;
+  font-size: 15px;
+}
+
+.blogs-body .blogs-post-list .blogs-details .content-post {
+  height: 45px;
+  text-align: justify;
+  color: #431615;
+  font-size: 14px;
+  line-height: 1.4;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.blogs-body .blogs-post-list .blogs-details .viewmore {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blogs-body .blogs-post-list .blogs-details .viewmore a {
+  text-align: justify;
+  color: #431615;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+}
+
+.blogs-body .blogs-post-list .blogs-details .viewmore:hover a {
+  color: #0dfc55;
+}
+
+.blogs-body .blogs-post-list .blogs-details .picture-blogs {
+  width: 100%;
+  height: auto;
+}
+
+.blogs-body .blogs-post-list .blogs-details .picture-blogs a.images-blogs {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.blogs-body .blogs-post-list .blogs-details .picture-blogs a.images-blogs img {
+  max-width: 100%;
+  height: auto;
+}
+/* End Blogs */

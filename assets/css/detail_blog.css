@@ -1,0 +1,113 @@
+/* Details Post */
+#wrapper #detail-blogs {
+    padding-top: 25vh;
+    
+}
+#detail-blogs .title-blogs {
+    padding-bottom: 5px;
+    font-family: "UTM Neo";
+    font-size: 20px;
+    color: #431615;
+    font-weight: 700;
+}
+
+#detail-blogs .date-story {
+    display: flex;
+    padding: 5px 0px;
+    list-style: none;
+   /* justify-content: center; */
+}
+
+#detail-blogs .date-story li.items-blogs {
+    display: inline-block;
+    padding-right: 10px;
+    color: #431615;
+    font-size: 13px;
+    font-weight: 600;
+}
+#detail-blogs .date-story li.items-blogs:last-child::before {
+    font-family: fontawesome;
+   
+    content: "\f15c";
+    color: #431615;
+    padding: 0px 4px;
+}
+
+#detail-blogs .content-blogs {
+    font-size: 14px;
+    display: block;
+    text-align: justify;
+    line-height: 2.5;
+}
+
+#detail-blogs .picture-blogs {
+    width: 100%;
+    height: auto;
+}
+
+#detail-blogs .picture-blogs img {
+    width: 690px;
+    height: 500px;
+}
+#detail-blogs .order-now{
+    padding-top: 15px
+}
+
+#detail-blogs .order-now .booking-now{
+    display: inline-block;
+    color: #fff;
+    background: #c32727;
+    padding: 7px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#detail-blogs .post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#detail-blogs .post-navigation .left {
+    justify-content: flex-start;
+}
+
+#detail-blogs .post-navigation .left .prev {
+    color: #431615;
+    text-decoration: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#detail-blogs .post-navigation .left .prev::before {
+    font-family: fontawesome;
+    content: "\f060";
+    color: #431615;
+    padding: 0px 4px;
+}
+
+#detail-blogs .post-navigation .right {
+    justify-content: flex-end;
+}
+
+#detail-blogs .post-navigation .right .next {
+    color: #431615;
+    text-decoration: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#detail-blogs .post-navigation .right .next::after {
+    font-family: fontawesome;
+    content: "\f061";
+    color: #431615;
+    padding: 0px 4px;
+}
+/* End details post */
+  

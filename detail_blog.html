@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/detail_blog.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/animation.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Bài viết cơm tấm</title>
+  </head>
+  <body>
+    <div class="contact-icons">
+      <a href="#" class="lienlac-icons-promotion">
+        <img src="./assets/images/icon_zalo.png" />
+      </a>
+      <a href="#" class="lienlac-icons-promotion">
+        <img src="./assets/images/logo_phone.png" />
+      </a>
+      <a href="#" class="lienlac-icons-promotion">
+        <img src="./assets/images/logo_messenger.png" />
+      </a>
+    </div>
+    <div id="wrapper">
+      <!-- Header -->
+      <div class="header">
+        <div
+          class="d-flex justify-content-around  align-items-center"
+        >
+          <a href="index.html" id="logo-header">
+            <img
+              src="./assets/images/logo.png"
+              alt="Cơm Tấm"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            />
+          </a>
+          <nav class="nav-right">
+            <div class="icons-shopinfo d-flex">
+              <div
+                class="header-icons"
+                data-aos="zoom-in-left"
+                data-aos-easing="linear"
+                data-aos-duration="500"
+              >
+                <a
+                  href="https://www.facebook.com/comtamHoangKimDeNhat"
+                  target="_blank"
+                  class="facebook-link"
+                >
+                  <i
+                    class="fa-brands fa-facebook"
+                    style="color: #fff; font-size: 25px"
+                  ></i>
+                </a>
+              </div>
+              <div class="header-icons cart-info">
+                <span class="total-cart">3</span>
+                <a href="#" class="cart-link">
+                  <i
+                    class="fa-solid fa-cart-shopping"
+                    style="color: #fff; font-size: 25px"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <ul class="navbar-header">
+              <li class="text-capitalize">
+                <a href="index.html" class="item-nav text-uppercase"
+                  >trang chủ</a
+                >
+              </li>
+              <li class="text-capitalize active-menu">
+                <a href="blogs.html" class="item-nav text-uppercase"
+                  >chuyện cơm tấm</a
+                >
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="item-nav text-uppercase">thực đơn</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#" class="item-submenu text-uppercase"
+                      >Cơm tấm sườn</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="item-submenu text-uppercase"
+                      >Cơm sườn trứng</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="item-submenu text-uppercase"
+                      >Cơm sườn nướng</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="item-submenu text-uppercase"
+                      >Cơm sườn kho tàu</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="item-submenu text-uppercase"
+                      >Cơm gà nướng</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="item-submenu text-uppercase"
+                      >Cơm gà kho</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="item-submenu text-uppercase"
+                      >Cơm gà kho tiêu</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="item-nav text-uppercase">nhượng quyền</a>
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="item-nav text-uppercase">tin tức</a>
+              </li>
+              <li class="text-capitalize">
+                <a href="#" class="item-nav text-uppercase">cửa hàng</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="mobile-general">
+          <div id="navbar-toggle">
+            <i class="fa-solid fa-bars" onclick="changeIcon(this)"></i>
+          </div>
+          <a href="#" id="logo-mobile">
+            <img src="./assets/images/logo.png" alt="Cơm Tấm" />
+          </a>
+          <div class="icons-shopinfo d-flex">
+            <div class="header-icons">
+              <a
+                href="https://www.facebook.com/comtamHoangKimDeNhat"
+                target="_blank"
+                class="facebook-link"
+              >
+                <i
+                  class="fa-brands fa-facebook"
+                  style="color: #fff; font-size: 25px"
+                ></i>
+              </a>
+            </div>
+            <div class="header-icons cart-info">
+              <span class="total-mobile">3</span>
+              <a href="#" class="cart-link">
+                <i
+                  class="fa-solid fa-cart-shopping"
+                  style="color: #fff; font-size: 25px"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-responsive">
+          <li class="text-capitalize">
+            <a href="index.html" class="item-nav text-uppercase">trang chủ</a>
+          </li>
+          <li class="text-capitalize">
+            <a href="blogs.html" class="item-nav text-uppercase"
+              >về chúng tôi</a
+            >
+          </li>
+          <li class="text-capitalize">
+            <a href="#" class="item-nav text-uppercase">thực đơn</a>
+          </li>
+          <li class="text-capitalize">
+            <a href="#" class="item-nav text-uppercase">nhượng quyền</a>
+          </li>
+          <li class="text-capitalize">
+            <a href="#" class="item-nav text-uppercase">tin tức</a>
+          </li>
+          <li class="text-capitalize">
+            <a href="#" class="item-nav text-uppercase">cửa hàng</a>
+          </li>
+        </ul>
+      </div>
+      <!-- End header -->
+
+      <!-- Blog Details -->
+      <div id="detail-blogs">
+        <div class="container">
+          <h1 class="title-blogs">
+            MỪNG SINH NHẬT 18 TUỔI - PHÚC LỘC THỌ TẶNG 18.000 LY TRÀ CHANH HOA
+            TUYẾT
+          </h1>
+          <ul class="date-story">
+            <li class="items-blogs">28.11.2023</li>
+            <li class="items-blogs">
+              <!-- <i class="fa-solid fa-file-lines"></i> -->
+              Chuyện cơm tấm
+            </li>
+          </ul>
+          <span class="content-blogs"
+            >🎂 MỪNG SINH NHẬT 18 TUỔI - PHÚC LỘC THỌ CHƠI LỚN</span
+          >
+          <span class="content-blogs"
+            >🍋 𝐓𝐀̣̆𝐍𝐆 𝟏𝟖.𝟎𝟎𝟎 𝐥𝐲 Trà Chanh Hoa Tuyết khi mua Combo 65k bất
+            kì</span
+          >
+          <div class="picture-blogs text-center">
+            <img
+              src="./assets/images/23.jpg"
+              alt="cơm tấm "
+            />
+          </div>
+          <span class="content-blogs"
+            >Nhân dịp mừng sinh nhật 18 tuổi, Phúc Lộc Thọ mời bạn món mới “Trà
+            chanh hoa tuyết” với hương thơm đặc trưng từ chanh hoa, vị chua
+            thanh, dịu nhẹ hòa quyện với một chút mật ong và đá lạnh tạo nên
+            hương vị hoàn hảo, tươi mát.</span
+          >
+          <span class="content-blogs"
+            >🔥 𝐓𝐚̣̆𝐧𝐠 𝟏𝟖.𝟎𝟎𝟎 𝐥𝐲 Trà Chanh Hoa Tuyết khi mua Combo 65k bao gồm Cơm
+            sườn hoặc cơm ba rọi, trứng ốp la và Canh rong biển thanh mát</span
+          >
+          <span class="content-blogs"
+            >Đến ngay Cơm Tấm Phúc Lộc Thọ để thử ngay món mới siêu bắt cơm này
+            nha!</span
+          >
+          <span class="content-blogs"
+            >🎂 MỪNG SINH NHẬT 18 TUỔI - PHÚC LỘC THỌ CHƠI LỚN</span
+          >
+          <span class="content-blogs">_________</span>
+          <span class="content-blogs"
+            >𝐓𝐀̣̆𝐍𝐆 𝟏𝟖.𝟎𝟎𝟎 𝐋𝐲 Trà Chanh Hoa Tuyết khi mua Combo 65k bất kì</span
+          >
+          <span class="content-blogs"
+            >👉 Nhận ưu đãi tại:
+            https://comtamphucloctho.vn/pages/mung-sinh-nhat-18-tuoi</span
+          >
+          <span class="content-blogs"
+            >👉 Danh sách áp dụng:
+            https://comtamphucloctho.vn/pages/29-cuahang</span
+          >
+          <span class="content-blogs">_________</span>
+          <span class="content-blogs">ĂN PHÚC - UỐNG LỘC - SỐNG THỌ</span>
+          <span class="content-blogs">☎ Hotline: 1900 6552</span>
+          <span class="content-blogs">⏰ Giờ hoạt động: 06:30 - 22:00</span>
+          <span class="content-blogs"
+            >#ComTamPhucLocTho #ComTam #PhucLocTho #HethongphukhapSaiGon
+            #mungsinhnhat18tuoi #18tuoi</span
+          >
+          <div class="order-now">
+            <a href="#" class="booking-now"> đặt ngay </a>
+          </div>
+          <div class="post-navigation">
+            <span class="left">
+              <a href="#" class="prev">Bài Trước</a>
+            </span>
+            <span class="right">
+              <a href="#" class="next">Bài Sau</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- End Blog Details -->
+
+      <!-- Category footer -->
+      <section class="section-category">
+        <div class="footer-new">
+          <div class="new-footer-icons">
+            <div
+              class="new-footer-icon-item"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1400"
+            >
+              <img
+                src="https://file.hstatic.net/200000043306/file/asset_9_e0d311344a0a49449d2d61717dac7cd2.png"
+                class="img-responsive"
+                alt="SỬ DỤNG THỰC PHẨM<br>NGUỒN GỐC RÕ RÀNG"
+              />
+              <div class="new-footer-icon-item-body">
+                SỬ DỤNG THỰC PHẨM<br />NGUỒN GỐC RÕ RÀNG
+              </div>
+            </div>
+            <div
+              class="new-footer-icon-item"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1400"
+            >
+              <img
+                src="https://file.hstatic.net/200000043306/file/asset_9_dccdc97ee0a74533a12647a156a21999.png"
+                class="img-responsive"
+                alt="ỦNG HỘ SẢN PHẨM<br>NÔNG NGHIỆP VIỆT"
+              />
+              <div class="new-footer-icon-item-body">
+                ỦNG HỘ SẢN PHẨM<br />NÔNG NGHIỆP VIỆT
+              </div>
+            </div>
+            <div
+              class="new-footer-icon-item"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1400"
+            >
+              <img
+                src="https://file.hstatic.net/200000043306/file/asset_10_2368c732e9a74044acdd0e74a042c2c3.png"
+                class="img-responsive"
+                alt="CHUNG TAY<br>BẢO VỆ MÔI TRƯỜNG"
+              />
+              <div class="new-footer-icon-item-body">
+                CHUNG TAY<br />BẢO VỆ MÔI TRƯỜNG
+              </div>
+            </div>
+          </div>
+          <a
+            class="new-footer-right"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1400"
+            href="tel:19006552"
+          >
+            <img
+              src="https://file.hstatic.net/200000043306/file/icon-giao-hang-03-compress_c3943ff12a184ce6a2e04b277fbd785b.png"
+              alt="Banner"
+            />
+          </a>
+        </div>
+      </section>
+      <!-- End category footer -->
+
+     <!-- Footer -->
+    <div class="footer">
+      <div class="wp-footer">
+        <div class="policy-footer">
+          <ul class="item-policy">
+              <li class="list-items-policy">Chính sách & quy định chung</li>
+              <li class="list-items-policy">Chính sách giao hàng & thanh toán</li>
+              <li class="list-items-policy">Chính sách bảo mật thông tin</li>
+              <li class="list-items-policy">Liên hệ</li>
+          </ul>
+        </div>
+        <div class="address-company">
+            <span class="details-company">Địa chỉ: 74 Đ. Chánh Hưng, Bình Hưng, Bình Chánh, TP. Hồ Chí Minh</span>
+        </div>
+      </div>
+      <div class="coppyright-footer">
+        Copyright @ 2024 Hoàng Kim Đệ Nhất |  All rights reserved.
+      </div>
+    </div>
+    <!-- End footer -->
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

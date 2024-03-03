@@ -1,0 +1,118 @@
+@media (max-width: 576px) {
+  .product-body ul.special-product {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+  }
+  ul.special-product li.product-item .product-picture a.img-product {
+    height: 275px;
+  }
+  .dish-product .dish-body ul.dish-special {
+    flex-direction: column;
+  }
+  .dish-product .dish-body ul.dish-special .dish-item {
+    padding: 10px;
+  }
+  ul.dish-special .dish-item .dish-picture a.img-dish {
+    height: 275px;
+  }
+  .category-footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .banner {
+    padding: 10px;
+    margin: 0;
+  }
+  .footer-new {
+    flex-direction: column;
+  }
+  .new-footer-icon-item-body {
+    font-size: 11px;
+  }
+  .new-footer-icons {
+    gap: 10px;
+  }
+  .img-responsive {
+    max-height: 73px;
+  }
+  .new-footer-right img {
+    width: 100%;
+  }
+  .footer-coppyright .policy-list ul.chinhsachus {
+    flex-direction: column;
+  }
+  .policy-list ul.chinhsachus li.policy-item::after {
+    border: none;
+  }
+  .footer-coppyright .footer-lisense {
+    gap: 10px;
+  }
+  .slide {
+    margin-top: 74px;
+  }
+  #wrapper #detail-blogs {
+    padding: 5rem 10px 10px 10px;
+  }
+  .picture-blogs img {
+    width: 100%;
+  }
+  #detail-blogs .content-blogs {
+    text-align: start;
+  }
+  .blogs .blogs-body .blogs-post-list {
+    flex-direction: column;
+  }
+  .blogs-body .blogs-post-list .blogs-details {
+    padding: 10px !important;
+  }
+  .blogs-body .blogs-post-list .blogs-details:first-child {
+    padding-left: auto;
+  }
+}
+/* Medium devices (tables, 768px and up) */
+
+@media (min-width: 768px) {
+  .product-body ul.special-product {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+  }
+  .dish-product .dish-body ul.dish-special {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .policy-list ul.chinhsachus li.policy-item a.detail-policy {
+    font-size: 14px;
+  }
+  #wrapper #detail-blogs{
+    padding: 10vh 10px 10px 10px;
+  }
+}
+/* large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  #wrapper .header #logo-header {
+    display: block;
+  }
+
+  ul.navbar-header {
+    display: flex;
+  }
+  #navbar-toggle {
+    display: none;
+    z-index: 5;
+  }
+  .mobile-general,
+  .mobile-general .icons-shopinfo {
+    display: none;
+  }
+  #wrapper .header nav ul.navbar-header,
+  #wrapper .header nav .icons-shopinfo,
+  #wrapper .header .product-category ul#product-menu {
+    display: flex;
+  }
+}
+/* Extra large devices (larger desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}
