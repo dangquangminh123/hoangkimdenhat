@@ -24,6 +24,13 @@
   width: 50px;
 }
 
+.contact-icons a.lienlac-icons-promotion:last-child img {
+  height: 64px;
+  position: absolute;
+  right: -31%;
+  width: 64px;
+}
+
 .contact-icons a.lienlac-icons-promotion:hover img {
   animation: 1s ease-in-out 0s normal none infinite running
     suntory-alo-circle-img-anim;
@@ -64,8 +71,11 @@
 }
 
 .header .name-company h2 {
-  color: #ffff;
-  font-weight: 500;
+  color: #f1c40f;
+  font-size: 29px;
+  font-weight: 800;
+  font-family: "Saira Condensed", sans-serif;
+  font-style: normal;
 }
 
 #wrapper .header nav {
@@ -312,6 +322,8 @@ ul.navbar-responsive > li:hover > a {
 /* Background slider */
 .bg-images {
   position: relative;
+  padding: 0px;
+  margin: 0px;
 }
 .wrapper-form {
   padding: 15px;
@@ -337,20 +349,20 @@ ul.navbar-responsive > li:hover > a {
 }
 
 .slide.slide-1 {
-  background-image: url("../images/30.jpg");
+  background-image: url("../images/slider1.jpg");
   /* height: 100vh; */
 }
 .slide.slide-2 {
-  background-image: url("../images/47.jpg");
+  background-image: url("../images/slider2.jpg");
   /* height: 100vh; */
 }
 .slide.slide-3 {
-  background-image: url("../images/54.jpg");
+  background-image: url("../images/slider3.jpg");
   /* height: 100vh; */
 }
 
 .slide.slide-4 {
-  background-image: url("../images/30.jpg");
+  background-image: url("../images/slider1.jpg");
   /* height: 100vh; */
 }
 
@@ -675,6 +687,7 @@ li.product-item .product-name .first-content {
 
 .dish-product .dish-body ul.dish-special .dish-item {
   padding: 0px 6px;
+  height: auto;
 }
 
 .dish-product .dish-body ul.dish-special .dish-item:first-child {
@@ -693,13 +706,14 @@ ul.dish-special .dish-item .dish-picture {
   border-radius: 8px;
 }
 
+
 ul.dish-special .dish-item .dish-picture .tag-discount {
   position: absolute;
   right: -1px;
   top: -1px;
   background: #f01506;
   color: #f8f406;
-  font-size: 12px;
+  font-size: 12px;  
   font-weight: bold;
   padding: 7px 7px;
   font-weight: bold;
@@ -710,14 +724,14 @@ ul.dish-special .dish-item .dish-picture .tag-discount {
 ul.dish-special .dish-item .dish-picture a.img-dish {
   max-width: 100%;
   overflow: hidden;
-  height: 215px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 ul.dish-special .dish-item .dish-picture a.img-dish img {
-  width: 100%;
+  width: 370px;
+  height: 290px;
   object-fit: cover;
 }
 
@@ -764,7 +778,8 @@ li.dish-item .button-details {
   text-align: center;
 }
 
-li.dish-item .button-details .watch-product {
+li.dish-item .button-details a.watch-product {
+  text-decoration: none;
   background-color: #FF0000;
   font-weight: 700;
   width: 270px;
@@ -781,6 +796,42 @@ li.dish-item .button-details .watch-product {
   transition: all 0.4s ease-in-out;
 }
 
+/* content tradition */
+#wrapper .abouts-us {
+  margin: 10px 0px;
+}
+#wrapper .abouts-us .images-us {
+  background-image: url("../images/giua1.jpg");
+  min-height: 1000px;
+    background-size: cover;
+    margin: 0px 40px;
+    position: relative;
+}
+
+#wrapper .abouts-us .images-us::before {
+  content: "";
+  position: absolute;
+  height: 250px;
+  bottom: 20%;
+  background: #000000;
+  opacity: 0.7;
+  padding: 5px 0px;
+  width: 100%;
+  }
+
+#wrapper .abouts-us .watch-popular .watch-us {
+  position: absolute;
+  top: 65%;
+  right: 45%;
+  background-color: #FF0000;
+  font-weight: 500;
+  color: #f1c40f;
+  padding: 8px 19px;
+  border: 2px solid #df6c56;
+  outline: none;
+  text-decoration: none;
+}
+/* end tradition content */
 /* Dish popular */
 .dish-popular {
   margin-top: 30px;
