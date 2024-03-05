@@ -321,9 +321,7 @@ ul.navbar-responsive > li:hover > a {
 
 /* Background slider */
 .bg-images {
-  position: relative;
-  padding: 0px;
-  margin: 0px;
+margin-top: 130px;
 }
 .wrapper-form {
   padding: 15px;
@@ -340,32 +338,13 @@ ul.navbar-responsive > li:hover > a {
 }
 
 .slide {
+
+}
+
+.slide img {
   width: 100%;
-  height: 100vh;
-  position: relative;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+  object-fit: cover;
 }
-
-.slide.slide-1 {
-  background-image: url("../images/slider1.jpg");
-  /* height: 100vh; */
-}
-.slide.slide-2 {
-  background-image: url("../images/slider2.jpg");
-  /* height: 100vh; */
-}
-.slide.slide-3 {
-  background-image: url("../images/slider3.jpg");
-  /* height: 100vh; */
-}
-
-.slide.slide-4 {
-  background-image: url("../images/slider1.jpg");
-  /* height: 100vh; */
-}
-
 .owl-dots {
   width: 100%;
   text-align: center;
@@ -678,8 +657,9 @@ li.product-item .product-name .first-content {
 }
 
 .dish-product .dish-body ul.dish-special {
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 9px;
+  flex-wrap: wrap;
   margin-bottom: 6px;
   list-style: none;
   padding: 0px;
@@ -723,6 +703,7 @@ ul.dish-special .dish-item .dish-picture .tag-discount {
 
 ul.dish-special .dish-item .dish-picture a.img-dish {
   max-width: 100%;
+  width: 370px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -846,8 +827,7 @@ li.dish-item .button-details a.watch-product {
 }
 
 .dish-popular .popular-header img {
-  width: 800px;
-  height: 150px;
+ width: 100%;
 }
 
 .dish-popular .popular-body {
