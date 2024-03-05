@@ -37,7 +37,7 @@
 }
 
 #wrapper {
-  background: linear-gradient(#CF7C00, #FBD300, #CF7C00, #000000);
+  background: linear-gradient(#cf7c00, #fbd300, #cf7c00, #000000);
   padding: 0px;
   margin: 0px;
   overflow: hidden;
@@ -234,7 +234,7 @@ ul.navbar-responsive {
   left: 0;
   padding-top: 15px;
   padding-bottom: 20px;
-  top: 75px;
+  top: 114px;
   width: 100%;
   display: none;
 }
@@ -704,8 +704,8 @@ ul.dish-special .dish-item .dish-picture {
   margin-bottom: 4px;
   position: relative;
   border-radius: 8px;
+  overflow: hidden;
 }
-
 
 ul.dish-special .dish-item .dish-picture .tag-discount {
   position: absolute;
@@ -713,7 +713,7 @@ ul.dish-special .dish-item .dish-picture .tag-discount {
   top: -1px;
   background: #f01506;
   color: #f8f406;
-  font-size: 12px;  
+  font-size: 12px;
   font-weight: bold;
   padding: 7px 7px;
   font-weight: bold;
@@ -759,7 +759,7 @@ li.dish-item .dish-name a.first-dish {
 
 li.dish-item .dish-listed {
   text-align: center;
-  color: #FAFF00;
+  color: #faff00;
   font-weight: 700;
   font-size: 23px;
   font-style: italic;
@@ -780,7 +780,7 @@ li.dish-item .button-details {
 
 li.dish-item .button-details a.watch-product {
   text-decoration: none;
-  background-color: #FF0000;
+  background-color: #ff0000;
   font-weight: 700;
   width: 270px;
   margin: 0 auto;
@@ -803,9 +803,9 @@ li.dish-item .button-details a.watch-product {
 #wrapper .abouts-us .images-us {
   background-image: url("../images/giua1.jpg");
   min-height: 1000px;
-    background-size: cover;
-    margin: 0px 40px;
-    position: relative;
+  background-size: cover;
+  margin: 0px 40px;
+  position: relative;
 }
 
 #wrapper .abouts-us .images-us::before {
@@ -817,13 +817,13 @@ li.dish-item .button-details a.watch-product {
   opacity: 0.7;
   padding: 5px 0px;
   width: 100%;
-  }
+}
 
 #wrapper .abouts-us .watch-popular .watch-us {
   position: absolute;
   top: 65%;
   right: 45%;
-  background-color: #FF0000;
+  background-color: #ff0000;
   font-weight: 500;
   color: #f1c40f;
   padding: 8px 19px;
@@ -856,7 +856,7 @@ li.dish-item .button-details a.watch-product {
   justify-content: space-around;
 }
 
-.popular-body .list-dish-popular .dishpopular-item  {
+.popular-body .list-dish-popular .dishpopular-item {
   flex-basis: 33.33%;
 }
 
@@ -945,7 +945,7 @@ section.section-category {
   font-size: 18px;
   line-height: 2.5x;
   text-align: justify;
-} 
+}
 
 .footer .wp-footer .address-company {
   text-transform: capitalize;
