@@ -1,4 +1,10 @@
 @media (max-width: 576px) {
+  .header-wrap {
+    flex-direction: column;
+  }
+  .mobile-general {
+    padding: 0px 0px 13px;
+  }
   .product-body ul.special-product {
     grid-template-columns: repeat(1, 1fr);
     padding: 10px;
@@ -13,7 +19,10 @@
     padding: 10px;
   }
   ul.dish-special .dish-item .dish-picture a.img-dish {
-    height: 275px;
+    height: 200px;
+  }
+  .dish-product .dish-title .content-dish {
+    font-size: 21px;
   }
   .category-footer {
     flex-direction: column;
@@ -48,10 +57,12 @@
     gap: 10px;
   }
   .slide {
-    margin-top: 74px;
+    margin-top: 109px;
+    background-size: contain;
+    height: 300px;
   }
   #wrapper #detail-blogs {
-    padding: 5rem 10px 10px 10px;
+    padding: 8rem 10px 10px 10px;
   }
   .picture-blogs img {
     width: 100%;
@@ -67,6 +78,53 @@
   }
   .blogs-body .blogs-post-list .blogs-details:first-child {
     padding-left: auto;
+  }
+  #wrapper .abouts-us .images-us {
+    background-size: contain;
+    min-height: 500px;
+    background-repeat: round;
+    margin: 0 10px;
+  }
+  #wrapper .abouts-us .watch-popular .watch-us {
+    transform: translate(50%, -50%);
+    top: 50%;
+    width: 100%;
+    right: 50%;
+  }
+  #wrapper .abouts-us .images-us::before {
+    height: 100px;
+    bottom: 40%;
+  }
+  .dish-popular .popular-body .list-dish-popular {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .dish-popular .popular-header {
+    padding: 10px;
+  }
+  .dish-popular .popular-header img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer .wp-footer .policy-footer {
+    padding: 0;
+    margin: 0;
+  }
+  .footer .wp-footer {
+    flex-direction: column;
+  }
+  .footer .wp-footer .item-policy {
+    padding: 10px 10px 0;
+    font-size: 17px;
+  }
+  .footer .wp-footer .address-company {
+    padding-right: 0;
+    padding: 10px;
+  }
+  .footer .coppyright-footer {
+    font-size: 14px;
   }
 }
 /* Medium devices (tables, 768px and up) */
@@ -84,7 +142,7 @@
   .policy-list ul.chinhsachus li.policy-item a.detail-policy {
     font-size: 14px;
   }
-  #wrapper #detail-blogs{
+  #wrapper #detail-blogs {
     padding: 10vh 10px 10px 10px;
   }
 }
