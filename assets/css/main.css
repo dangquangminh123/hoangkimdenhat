@@ -343,7 +343,7 @@ ul.navbar-responsive > li:hover > a {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -730,8 +730,7 @@ ul.dish-special .dish-item .dish-picture a.img-dish {
 }
 
 ul.dish-special .dish-item .dish-picture a.img-dish img {
-  width: 370px;
-  height: 290px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -812,24 +811,28 @@ li.dish-item .button-details a.watch-product {
   content: "";
   position: absolute;
   height: 250px;
-  bottom: 20%;
   background: #000000;
-  opacity: 0.7;
-  padding: 5px 0px;
   width: 100%;
+  opacity: 0.7;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #wrapper .abouts-us .watch-popular .watch-us {
   position: absolute;
-  top: 65%;
-  right: 45%;
   background-color: #ff0000;
   font-weight: 500;
   color: #f1c40f;
+  text-align: center;
   padding: 8px 19px;
   border: 2px solid #df6c56;
   outline: none;
+  width: 30%;
   text-decoration: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* end tradition content */
 /* Dish popular */
@@ -848,21 +851,20 @@ li.dish-item .button-details a.watch-product {
 }
 
 .dish-popular .popular-body {
-  padding-top: 40px;
+  padding: 20px 10px 10px;
 }
 
 .dish-popular .popular-body .list-dish-popular {
   display: flex;
-  justify-content: space-around;
+  gap: 40px;
 }
 
 .popular-body .list-dish-popular .dishpopular-item {
-  flex-basis: 33.33%;
 }
 
 .list-dish-popular .dishpopular-item img {
-  width: 355px;
-  height: 254px;
+  width: 100%;
+  object-fit: contain;
   border-radius: 5px;
 }
 /* End dish popular */
@@ -924,10 +926,9 @@ section.section-category {
 
 /* Footer  coppyright*/
 .footer {
-  margin: 0px auto;
-  padding-top: 30px;
   background-color: #000000;
   color: #fff;
+  padding: 20px 70px 0px;
 }
 
 .footer .wp-footer {
@@ -935,22 +936,17 @@ section.section-category {
   justify-content: space-between;
 }
 
-.footer .wp-footer .policy-footer {
-  padding-left: 60px;
-}
-
 .footer .wp-footer .policy-footer .item-policy {
   list-style: none;
   font-weight: 500;
   font-size: 18px;
-  line-height: 2.5x;
-  text-align: justify;
+  margin: 0;
+  padding: 0;
 }
 
 .footer .wp-footer .address-company {
   text-transform: capitalize;
   font-size: 19px;
-  padding-right: 20px;
   font-weight: 500;
 }
 
