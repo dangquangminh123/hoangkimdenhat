@@ -46,8 +46,8 @@
 }
 
 #detail-blogs .picture-blogs img {
-    width: 690px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 #detail-blogs .order-now{
     padding-top: 15px
