@@ -24,13 +24,6 @@
   width: 50px;
 }
 
-.contact-icons a.lienlac-icons-promotion:last-child img {
-  height: 64px;
-  position: absolute;
-  right: -31%;
-  width: 64px;
-}
-
 .contact-icons a.lienlac-icons-promotion:hover img {
   animation: 1s ease-in-out 0s normal none infinite running
     suntory-alo-circle-img-anim;
@@ -61,7 +54,7 @@
 #wrapper .header #logo-header {
   width: 193px;
   height: 130px;
-  display: none;
+  /* display: none; */
 }
 
 .header #logo-header img {
@@ -85,7 +78,6 @@
 #wrapper .header nav .icons-shopinfo {
   justify-content: flex-end;
   align-items: center;
-  display: none;
   /* margin-right: 1px; */
 }
 
@@ -136,7 +128,6 @@
   top: 45%;
   /* position: absolute; */
   list-style-type: none;
-  display: none;
   /* padding-right: 6px; */
 }
 
@@ -180,8 +171,8 @@
   padding: 9px 5px 9px 0px;
   list-style: none;
   background: #e87414;
-  display: none;
   z-index: 3;
+  display: none;
 }
 
 ul.navbar-header li:hover ul.sub-menu {
@@ -265,7 +256,7 @@ ul.navbar-responsive > li:hover > a {
 }
 
 .mobile-general {
-  /* display: flex; */
+  display: none;
   padding: 13px 0px;
   position: relative;
 }
@@ -321,7 +312,7 @@ ul.navbar-responsive > li:hover > a {
 
 /* Background slider */
 .bg-images {
-margin-top: 130px;
+  margin-top: 130px;
 }
 .wrapper-form {
   padding: 15px;
@@ -338,7 +329,6 @@ margin-top: 130px;
 }
 
 .slide {
-
 }
 
 .slide img {
@@ -827,7 +817,7 @@ li.dish-item .button-details a.watch-product {
 }
 
 .dish-popular .popular-header img {
- width: 100%;
+  width: 100%;
 }
 
 .dish-popular .popular-body {
@@ -891,6 +881,7 @@ section.section-category {
   margin: 0 auto;
 }
 .new-footer-icon-item-body {
+  color: #fff;
   text-align: center;
   font-weight: 700;
   font-size: 14px;
@@ -914,6 +905,7 @@ section.section-category {
 .footer .wp-footer {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .footer .wp-footer .policy-footer .item-policy {
