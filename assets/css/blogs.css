@@ -15,7 +15,37 @@
   background: #431615;
   padding: 10px;
 }
-
+.shipper {
+  display: flex;
+  align-items: center;
+}
+.shipper p {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 .blogs .blogs-header .title-blogs {
   text-transform: uppercase;
   font-weight: 700;
@@ -65,7 +95,7 @@
 }
 
 .blogs-body .blogs-post-list .blogs-details:hover .blogs-name {
-  color: #f3780f;
+  color: #fff;
 }
 
 .blogs-body .blogs-post-list .blogs-details .times-post {
@@ -88,7 +118,7 @@
 .blogs-body .blogs-post-list .blogs-details .content-post {
   height: 45px;
   text-align: justify;
-  color: #431615;
+  color: #fafafa;
   font-size: 14px;
   line-height: 1.4;
   overflow: hidden;
@@ -124,7 +154,6 @@
 }
 
 .blogs-body .blogs-post-list .blogs-details .picture-blogs a.images-blogs img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
 }
 /* End Blogs */

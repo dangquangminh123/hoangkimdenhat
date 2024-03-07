@@ -1,14 +1,23 @@
 /* Extra large devices (larger desktops, 1200px and up) */
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
+  
 }
 /* large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+  #wrapper .header nav {
+    flex-basis: unset;
+  }
+  .name-company {
+    display: none;
+  }
   #wrapper .header #logo-header {
     display: block;
   }
-
+  .footer {
+    padding: 20px 10px 0px;
+  }
   ul.navbar-header {
     display: flex;
   }
@@ -24,6 +33,9 @@
   #wrapper .header nav .icons-shopinfo,
   #wrapper .header .product-category ul#product-menu {
     display: flex;
+  }
+  #wrapper #detail-blogs {
+    padding: 15vh 10px 0;
   }
 }
 /* Medium devices (tables, 768px and up) */
@@ -75,19 +87,27 @@
     width: 100%;
     height: 100%;
   }
+  .new-footer-icon-item-body {
+    font-size: 12px;
+  }
+  .shipper p {
+    font-size: 25px;
+  }
 }
 @media (max-width: 576px) {
+  .mobile-general,
+  .mobile-general .icons-shopinfo {
+    display: flex;
+    flex-direction: row;
+  }
   .header-wrap {
-    flex-direction: column;
+    display: none;
   }
   .bg-images {
     margin-top: 18px;
   }
   .mobile-general {
     padding: 0px 0px 13px;
-  }
-  .name-company {
-    display: none;
   }
   ul.navbar-responsive {
     top: 127px;
@@ -121,6 +141,9 @@
   }
   .footer-new {
     flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin: 0;
   }
   .new-footer-icon-item-body {
     font-size: 11px;
@@ -146,7 +169,6 @@
   .slide {
     margin-top: 109px;
     background-size: contain;
-    height: 300px;
   }
   #wrapper #detail-blogs {
     padding: 8rem 10px 10px 10px;
@@ -200,6 +222,10 @@
   }
   .footer .wp-footer {
     gap: 1rem;
+  }
+  #navbar-toggle {
+    display: block;
+    z-index: 5;
   }
   .footer .coppyright-footer {
     margin-top: 1rem;
