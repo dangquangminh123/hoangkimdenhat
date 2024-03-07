@@ -37,6 +37,10 @@
   #wrapper #detail-blogs {
     padding: 15vh 10px 0;
   }
+
+  .blogs-body .blogs-post-list .blogs-details .blogs-name {
+    margin-bottom: 13vh;
+  }
 }
 /* Medium devices (tables, 768px and up) */
 @media (max-width: 768px) {
@@ -64,6 +68,10 @@
   }
   .policy-list ul.chinhsachus li.policy-item a.detail-policy {
     font-size: 14px;
+  }
+
+  .blogs-body .blogs-post-list .blogs-details .blogs-name {
+    /* margin-bottom: 3rem; */
   }
   #wrapper #detail-blogs {
     padding: 10vh 10px 10px 10px;
