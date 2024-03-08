@@ -1,7 +1,6 @@
 /* Extra large devices (larger desktops, 1200px and up) */
 
 @media (max-width: 1200px) {
-  
 }
 /* large devices (desktops, 992px and up) */
 
@@ -37,13 +36,53 @@
   #wrapper #detail-blogs {
     padding: 15vh 10px 0;
   }
-
-  .blogs-body .blogs-post-list .blogs-details .blogs-name {
-    margin-bottom: 13vh;
+  #wrapper .description-about .detail-content {
+    padding: 0 2rem;
+  }
+  .blogs-body .blogs-post-list .blogs-details .content-post {
+    height: auto;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    margin-top: 7px;
+  }
+  @supports (-webkit-line-clamp: 3) {
+    .blogs-body .blogs-post-list .blogs-details .content-post {
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+    }
+  }
+  .the-news .new-left .news-items .content-top {
+    flex-direction: column;
+  }
+  .new-left .news-items .content-bottom ul.newlist-popular {
+    flex-direction: column;
+  }
+  #wrapper .breadcrumd {
+    margin-top: 12vh;
+  }
+  .footer-news {
+    margin-top: 60px;
   }
 }
 /* Medium devices (tables, 768px and up) */
 @media (max-width: 768px) {
+  .new-left
+    .attention-news
+    .box-news
+    ul.list-attention
+    li
+    .chitiet-items
+    .info-more {
+    flex-direction: column;
+    align-items: start;
+  }
+  .wp-content .new-left .attention-news .box-news ul.list-attention li {
+    flex-direction: column;
+  }
+  #wrapper .breadcrumd {
+    margin-top: 24vh;
+  }
   .header-wrap {
     flex-direction: column;
   }
@@ -58,11 +97,6 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
   }
-  .dish-product .dish-body ul.dish-special {
-    /* display: grid !important;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px; */
-  }
   .dish-product .dish-title .content-dish {
     font-size: 25px;
   }
@@ -70,9 +104,6 @@
     font-size: 14px;
   }
 
-  .blogs-body .blogs-post-list .blogs-details .blogs-name {
-    /* margin-bottom: 3rem; */
-  }
   #wrapper #detail-blogs {
     padding: 10vh 10px 10px 10px;
   }
@@ -101,12 +132,25 @@
   .shipper p {
     font-size: 25px;
   }
+  #wrapper .description-about {
+    margin-top: 25vh;
+  }
+  #wrapper .breadcrumd .list-breadcrumd {
+    padding: 10px;
+  }
+
+  .footer-news {
+    margin-top: 0;
+  }
 }
 @media (max-width: 576px) {
   .mobile-general,
   .mobile-general .icons-shopinfo {
     display: flex;
     flex-direction: row;
+  }
+  #wrapper .breadcrumd .list-breadcrumd {
+    margin: 0;
   }
   .header-wrap {
     display: none;
@@ -226,8 +270,6 @@
     padding: 10px 10px 0;
     font-size: 17px;
   }
-  .footer .wp-footer .address-company {
-  }
   .footer .wp-footer {
     gap: 1rem;
   }
@@ -239,5 +281,41 @@
     margin-top: 1rem;
     font-size: 12px;
     text-align: left;
+  }
+  .wp-new .the-news .wp-content {
+    flex-direction: column;
+  }
+  #wrapper .breadcrumd .list-breadcrumd,
+  #wrapper .breadcrumd {
+    padding-left: 20px;
+  }
+  .footer-news {
+    margin-top: 30px;
+  }
+  .the-news .new-left .news-items .content-top .tintuc-left {
+    padding-right: 0;
+  }
+  .wp-new .the-news .wp-content {
+    padding: 5px;
+  }
+  .the-news .wp-content .new-right {
+    margin-left: 0;
+  }
+  .wp-content .new-right ul.dish-special li.dish-item {
+    height: auto;
+    width: auto;
+  }
+  .wp-content .new-right ul.dish-special {
+    display: block;
+  }
+
+  #wrapper .description-about .detail-content {
+    padding: 0 10px;
+  }
+  .wp-detailsnew .post-relate .post-body ul.list-relate {
+    flex-direction: column;
+  }
+  .wp-detailsnew .post-relate .post-body ul.list-relate li .item-post-title {
+    margin: 10px 0;
   }
 }
