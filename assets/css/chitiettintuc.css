@@ -4,17 +4,18 @@
 }
 
 /* Breadcrums */
+
 #wrapper .breadcrumd {
     margin-top: 23vh;
     background: #b8b3b3;
-    padding-left: 40px;
+    padding-left: 73px;
     /* padding-top: 5px;
       padding-bottom: 1px; */
   }
   
   #wrapper .breadcrumd .list-breadcrumd {
     list-style: none;
-    padding-left: 0px;
+    padding-left: 60px;
   }
   
   #wrapper .breadcrumd .list-breadcrumd li a.breadcrumb-item {
