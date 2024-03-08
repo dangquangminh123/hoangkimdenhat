@@ -4,9 +4,9 @@
 }
 /* Breadcrums */
 #wrapper .breadcrumd {
-    margin-top: 20vh;
+    margin-top: 23vh;
     background: #b8b3b3;
-    padding-left: 10px;
+    padding-left: 40px;
     /* padding-top: 5px;
       padding-bottom: 1px; */
   }
@@ -48,17 +48,19 @@
 }
 
 .wp-new .the-news .advertise-left {
-    flex-basis: 15%;
+    flex-basis: 10%;
 }
 
 .wp-new .the-news .advertise-right {
-    flex-basis: 15%;
+    flex-basis: 10%;
 }
 
 .wp-new .the-news .wp-content {
-    display: flex;
-    background: #ffff;
-    padding: 40px 9px;
+  display: flex;
+  background: #ffff;
+  padding: 15px 9px;
+  justify-content: center;
+  flex-basis: 80%;
 }
 
 /* WP-content */
