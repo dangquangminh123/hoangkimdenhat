@@ -1,22 +1,20 @@
 #wrapper {
-    background: #fff;
-color: #000000;
+  background: #fff;
+  color: #000000;
 }
 #wrapper .description-about {
-    
-    margin-top: 20vh;
-    
+  margin-top: 20vh;
 }
 
 #wrapper .description-about .detail-content {
-    text-align: center;
-    padding: 0px 90px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-size: 21px;
-    font-weight: 500;
+  text-align: justify;
+  padding: 0px 5rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 21px;
+  font-weight: 500;
 }
 
 .footer {
-    margin-top: 100px;
+  margin-top: 100px;
 }
