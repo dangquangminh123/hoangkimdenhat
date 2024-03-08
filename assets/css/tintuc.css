@@ -49,10 +49,20 @@
 
 .wp-new .the-news .advertise-left {
     flex-basis: 10%;
+    max-width: 140px;
+}
+
+.wp-new .the-news .advertise-left img {
+  width: 100%;
 }
 
 .wp-new .the-news .advertise-right {
     flex-basis: 10%;
+    max-width: 140px;
+}
+
+.wp-new .the-news .advertise-right img {
+  width: 100%;
 }
 
 .wp-new .the-news .wp-content {
