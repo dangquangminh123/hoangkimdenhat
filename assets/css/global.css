@@ -33,6 +33,9 @@
   text-align: center;
 }
 
+.text-italic {
+font-style: italic;
+}
 .f-40 {
   font-size: 40px;
 }
