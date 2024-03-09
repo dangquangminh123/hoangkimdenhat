@@ -1,6 +1,9 @@
 /* Extra large devices (larger desktops, 1200px and up) */
 
 @media (max-width: 1200px) {
+  .popup-container {
+    width: calc(100% - 50px);
+  }
 }
 /* large devices (desktops, 992px and up) */
 
@@ -67,6 +70,9 @@
 }
 /* Medium devices (tables, 768px and up) */
 @media (max-width: 768px) {
+  .popup-overlay .popup-container .left img {
+    height: 100%;
+  }
   .new-left
     .attention-news
     .box-news
@@ -144,6 +150,13 @@
   }
 }
 @media (max-width: 576px) {
+  .popup-container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .popup-container .right {
+    padding: 12px;
+  }
   .mobile-general,
   .mobile-general .icons-shopinfo {
     display: flex;

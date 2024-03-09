@@ -937,6 +937,7 @@ section.section-category {
   background: rgba(0, 0, 0, 0.4);
 }
 .popup-container {
+  width: calc(100% - 500px);
   position: fixed;
   top: 60%;
   left: 50%;
@@ -961,12 +962,12 @@ section.section-category {
 .popup-overlay .popup-container .left img {
   width: 100%;
 }
-.popup-container .left {
+/* .popup-container .left {
   width: 540px;
 }
 .popup-container .right {
   width: 540px;
-}
+} */
 .skip-now {
   margin-right: 4px;
 }
