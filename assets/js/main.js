@@ -23,7 +23,6 @@ $(document).ready(function () {
     hide_responsive_menu();
   });
 
-
   $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -40,4 +39,23 @@ $(document).ready(function () {
     // $event.preventDefault();
     $(this).addClass("active-menu").siblings().removeClass("active-menu");
   });
+  $(".skip-now").click(function ($event) {
+    // $event.preventDefault();
+    document.querySelector(".popup-overlay").style.display = "none";
+  });
+  function checkCoutDown() {
+    var countDownt = 10;
+    window.myInterval = setInterval(function () {
+      countDownt--;
+      document.querySelector(".count-numner").innerText = countDownt + " (s)";
+      if (countDownt <= 0) {
+        clearInterval(myInterval);
+        setTimeout(function () {
+          document.querySelector(".popup-overlay").style.display = "none";
+        }, 200);
+      }
+    }, 1000);
+  }
+
+  checkCoutDown();
 });
