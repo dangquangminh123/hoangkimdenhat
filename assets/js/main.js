@@ -35,6 +35,8 @@ $(document).ready(function () {
       },
     },
   });
+
+
   $(".text-capitalize").click(function ($event) {
     // $event.preventDefault();
     $(this).addClass("active-menu").siblings().removeClass("active-menu");
@@ -54,7 +56,7 @@ $(document).ready(function () {
           document.querySelector(".popup-overlay").style.display = "none";
         }, 200);
       }
-    }, 1000);
+    }, 5000);
   }
 
   checkCoutDown();
