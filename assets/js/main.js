@@ -46,17 +46,17 @@ $(document).ready(function () {
     document.querySelector(".popup-overlay").style.display = "none";
   });
   function checkCoutDown() {
-    var countDownt = 10;
+    var countDownt = 20;
     window.myInterval = setInterval(function () {
       countDownt--;
       document.querySelector(".count-numner").innerText = countDownt + " (s)";
       if (countDownt <= 0) {
         clearInterval(myInterval);
         setTimeout(function () {
-          document.querySelector(".popup-overlay").style.display = "none";
+          // document.querySelector(".popup-overlay").style.display = "none";
         }, 200);
       }
-    }, 5000);
+    }, 1000);
   }
 
   checkCoutDown();
